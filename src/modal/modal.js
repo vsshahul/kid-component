@@ -19,6 +19,7 @@ const Modal = ( {cardState,isModelOpen,setModel,setCardState} ) => {
 
   const [newKid,setNewKid] =  React.useState (
     {
+        isActive : true,
         image: avatar,
         title: '',
         subtitle: '',
